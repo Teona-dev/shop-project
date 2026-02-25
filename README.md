@@ -25,6 +25,3 @@
 ```bash
 npm install
 npm run dev
-Backend
-
-Проект работает с локальным backend (порт 3333).
