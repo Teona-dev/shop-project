@@ -1,0 +1,48 @@
+.wrap { display:flex; align-items:center; gap:10px; position:relative; }
+.label { color:#282828; }
+
+.control {
+  width: 200px;
+  height: 36px;
+  border: 1px solid #DDDDDD;
+  border-radius: 6px;
+  background: #fff;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding: 0 12px;
+  cursor: pointer;
+}
+
+.value { color:#282828; }
+.chev { color:#282828; }
+
+.dropdown {
+  position:absolute;
+  left: calc(10px + 0px);
+  top: 44px;
+  width: 200px;
+  border-radius: 6px;
+  border: 1px solid #DDDDDD;
+  background: #fff;
+  padding: 6px 0;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  z-index: 20;
+}
+
+.item {
+  width:100%;
+  text-align:left;
+  padding: 10px 12px;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  color: #8B8B8B;
+}
+
+.item:hover { background: #f6f6f6; }
+
+.itemActive {
+  color: #282828;
+  font-weight: 600;
+}

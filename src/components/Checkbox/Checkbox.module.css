@@ -1,0 +1,21 @@
+.box {
+  width: 36px;
+  height: 36px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.box:hover {
+  background: #f6f6f6;
+}
+
+.checked {
+  background: #339933;
+  border-color: #339933;
+}

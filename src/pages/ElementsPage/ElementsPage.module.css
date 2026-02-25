@@ -1,0 +1,6 @@
+.wrap { display:flex; flex-direction:column; gap:16px; }
+.row { display:flex; gap:12px; }
+.btn { border:0; background:#111; color:#fff; padding:10px 12px; border-radius:10px; font-weight:700; cursor:pointer; }
+.btnGhost { border:0; background:#f2f2f2; color:#111; padding:10px 12px; border-radius:10px; font-weight:700; cursor:pointer; }
+.block { display:flex; flex-direction:column; gap:8px; }
+.input { padding:10px 12px; border:1px solid #ddd; border-radius:10px; }

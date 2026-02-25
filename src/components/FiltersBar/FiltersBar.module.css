@@ -1,0 +1,25 @@
+.filters { display:flex; gap:40px; margin: 0 0 30px; align-items:center; flex-wrap:wrap; }
+.group { display:flex; gap:10px; align-items:center; }
+.input, .select { padding:8px 10px; border:1px solid #ddd; border-radius:8px; }
+
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.toggle svg {
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.toggle span {
+  line-height: 1;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}

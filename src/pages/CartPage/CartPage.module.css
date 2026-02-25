@@ -1,0 +1,21 @@
+.page { margin-top:20px; }
+.top { display:flex; align-items:center; gap:20px; }
+.title { font-size:64px; margin:20px 0 10px; font-weight:800; }
+.line { height:1px; background:#ddd; flex:1; margin-top:30px; }
+.back { margin-top:20px; padding:10px 14px; border:1px solid #ddd; border-radius:10px; text-decoration:none; color:#777; background:#fff; }
+
+.layout { margin-top:25px; display:grid; grid-template-columns:1.6fr 1fr; gap:30px; align-items:start; }
+.list { display:flex; flex-direction:column; gap:18px; }
+
+.orderBox { background:#f3f4f4; border-radius:16px; padding:26px; }
+.orderBox h2 { font-size:36px; margin:0 0 14px; }
+.itemsCount { font-size:32px; color:#8a8a8a; margin-bottom:12px; }
+.totalRow { display:flex; justify-content:space-between; align-items:baseline; gap:16px; }
+.totalLabel { font-size:36px; color:#8a8a8a; }
+.totalValue { font-size:56px; font-weight:900; }
+
+.form { display:flex; flex-direction:column; gap:10px; margin-top:18px; }
+.input { padding:16px 14px; border-radius:10px; border:1px solid #ddd; background:#fff; font-size:16px; }
+.btn { margin-top:8px; background:#2e9e4a; color:#fff; border:0; border-radius:10px; padding:16px 14px; font-size:18px; font-weight:900; cursor:pointer; }
+.btn:disabled { opacity:.6; cursor:not-allowed; }
+.err { color:#b00020; font-size:14px; margin-top:-6px; }

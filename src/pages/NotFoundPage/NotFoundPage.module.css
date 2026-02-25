@@ -1,0 +1,2 @@
+.page { display:flex; flex-direction:column; gap:12px; padding:40px 0; }
+.page a { color:#2e9e4a; font-weight:800; text-decoration:none; }

@@ -1,0 +1,13 @@
+.item { display:grid; grid-template-columns:220px 1fr; background:#fff; border:1px solid #e5e5e5; border-radius:16px; overflow:hidden; }
+.img { width:100%; height:100%; object-fit:contain; background:#fafafa; }
+.body { padding:18px; }
+.header { display:flex; justify-content:space-between; align-items:flex-start; gap:12px; }
+.name { font-size:18px; font-weight:700; }
+.remove { border:0; background:transparent; font-size:24px; cursor:pointer; }
+.bottom { margin-top:18px; display:flex; justify-content:space-between; align-items:center; gap:18px; }
+.qty { display:flex; align-items:center; border:1px solid #ddd; border-radius:10px; overflow:hidden; }
+.qty button { width:44px; height:44px; border:0; background:#fff; cursor:pointer; font-size:20px; }
+.qty span { width:56px; text-align:center; font-weight:800; }
+.prices { display:flex; align-items:baseline; gap:14px; }
+.price { font-size:36px; font-weight:900; }
+.old { font-size:18px; color:#888; text-decoration:line-through; }

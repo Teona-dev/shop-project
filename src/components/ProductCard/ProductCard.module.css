@@ -1,0 +1,21 @@
+.card { border:1px solid #e5e5e5; border-radius:12px; overflow:hidden; background:#fff; transition:.2s; }
+.card:hover { transform:translateY(-4px); box-shadow:0 8px 20px rgba(0,0,0,0.08); }
+.imgWrap { position:relative; display:block; background:#f6f6f6; }
+.img { width:100%; height:220px; object-fit:contain; display:block; }
+.badge { position:absolute; top:12px; right:12px; background:#2e9e4a; color:#fff; padding:6px 10px; border-radius:6px; font-weight:700; }
+
+.body {
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.title { margin-bottom:8px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.prices { display:flex; gap:10px; align-items:baseline; }
+.price { font-size:32px; font-weight:800; }
+.old { font-size:18px; color:#888; text-decoration:line-through; }
+
+.card button {
+  margin-top: auto;
+}

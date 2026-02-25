@@ -1,0 +1,22 @@
+.pill {
+  width: 284px;
+  height: 58px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.green {
+  background: #339933;
+}
+
+.black {
+  background: #282828;
+}
+
+.white {
+  background: #ffffff;
+  border: 1px solid #282828;
+}

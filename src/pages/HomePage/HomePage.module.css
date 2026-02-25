@@ -1,0 +1,84 @@
+.hero {
+  height: 420px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.heroContent { padding-left: 80px; color:#fff; }
+.heroContent h1 { font-size:56px; font-weight:800; margin:0 0 18px; }
+.heroBtn { display:inline-block; background:#0b7a21; color:#fff; text-decoration:none; padding:14px 28px; border-radius:8px; font-weight:800; }
+
+.section { padding: 60px 0; }
+.sectionHeader { display:flex; justify-content:space-between; align-items:center; margin-bottom:30px; }
+.sectionHeader a { color:#666; text-decoration:none; }
+
+.grid4 { display:grid; grid-template-columns:repeat(4, 1fr); gap:20px; }
+.grid4Products { display:grid; grid-template-columns:repeat(4, 1fr); gap:30px; }
+
+.discount {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  color: #fff;
+  padding: 60px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.discountInner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.discountInner h2 {
+  margin: 0;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 1.1;
+  max-width: 600px;
+}
+
+.discountForm {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 500px;
+}
+
+.discountForm input {
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,.5);
+  background: rgba(0,0,0,.08);
+  color: #fff;
+  outline: none;
+  font-size: 16px;
+}
+
+.discountForm input::placeholder {
+  color: rgba(255,255,255,.9);
+}
+
+.discountForm button {
+  padding: 16px;
+  border-radius: 12px;
+  border: 0;
+  background: #fff;
+  color: #1f8a2c;
+  font-weight: 900;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.err {
+  color: #ffd1d1;
+  font-size: 14px;
+}
+
+.err { color:#ffd1d1; font-size:14px; }
